@@ -1,0 +1,68 @@
+.secao1{
+    max-width:none;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    height: 50px;
+}
+
+.painel-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 70%;
+    list-style-type: none;
+    
+}
+.painel-home p{
+    display: flex;
+    font-size: 100%;
+    
+}
+
+.painel-home a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    
+}
+.painel-home a:hover{
+    color: #e1173f;;
+}
+
+
+/* SECAO 2 */
+
+.secao2{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+
+}
+
+.input input{
+    display: flex;
+    border: 2px solid #000;
+    border-radius: 15px;
+    height: 30px;
+    width: 600px;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+.input svg{
+    position: absolute;
+    height: 20px;
+    width: 30px;
+    margin-right: -565px;
+    margin-top: 3px;
+    
+
+}
