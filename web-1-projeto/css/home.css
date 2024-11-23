@@ -68,6 +68,251 @@
 }
 
 
+
+/* SECAO 3*/
+.secao3{
+    display: flex;
+    margin: 30px;
+    background-color: #e1173f;
+    width: auto;
+    height: 313px;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.cards{
+    display: flex;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 25px;
+}
+
+.cards p{
+    display: flex;
+    font-size: small;
+    margin-top: 70px;    
+}
+
+.conteiner-cards{
+    display: flex;
+    margin: 50px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;   
+
+}
+
+/* CARD 1*/
+
+.card1{
+    
+    align-items: center;
+    width: 230px;
+    height: 206px;
+    background-color:  #e8e9ec;
+    border-radius: 15px;
+}
+.card1 h1{
+    display: flex;
+    font-size: small;
+    align-items: flex-start;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.card1 p{
+    display: flex;
+    margin: 20px;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
+
+}
+.card1 svg{
+    display: flex;
+    width: 30px;
+    height: 20px;
+    margin-left: 190px;
+    margin-top: 15px;
+}
+
+
+
+/* CARD 2*/
+.card2{
+    
+    align-items: center;
+    width: 230px;
+    height: 206px;
+    background-color:  #e8e9ec;
+    border-radius: 15px;
+}
+.card2 h1{
+    display: flex;
+    font-size: small;
+    align-items: flex-start;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.card2 p{
+    display: flex;
+    margin: 20px;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
+
+}
+.card2 svg{
+    display: flex;
+    width: 30px;
+    height: 20px;
+    margin-left: 190px;
+    margin-top: 15px;
+}
+
+
+
+
+
+/* CARD 3*/
+.card3{
+    
+    align-items: center;
+    width: 230px;
+    height: 206px;
+    background-color:  #e8e9ec;
+    border-radius: 15px;
+}
+.card3 h1{
+    display: flex;
+    font-size: small;
+    align-items: flex-start;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.card3 p{
+    display: flex;
+    margin: 20px;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
+
+}
+.card3 svg{
+    display: flex;
+    width: 30px;
+    height: 20px;
+    margin-left: 190px;
+    margin-top: 15px;
+}
+
+/* SECAO 4 */
+
+.seguradoras{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 25px;
+}
+.seguradoras p{
+    display: flex;
+    font-size: small; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.secao4{
+    height: 164px;
+    background-color: #e1173f;
+}
+.seguros-conteiner{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* FULANO*/
+
+.fulano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maos svg{
+    display: flex;
+    width: 35px;
+    margin-left: -40px;
+
+}
+
+.fulano h1{
+    display: flex;
+    font-size: 15px;
+    height: 50px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*BELTRANO*/
+.beltrano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadeado svg{
+    display: flex;
+    width: 25px;
+    margin-left: -40px;
+
+}
+
+.beltrano h1{
+    display: flex;
+    font-size: 15px;
+    height: 50px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*CICLANO */
+
+.ciclano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escudo svg{
+    display: flex;
+    width: 35px;
+    margin-left: -40px;
+
+}
+
+.ciclano h1{
+    display: flex;
+    font-size: 15px;
+    height: 50px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+
+}
+
 /* footer */
 .footer-conteiner{
     display: flex;
