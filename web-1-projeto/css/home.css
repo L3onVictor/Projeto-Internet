@@ -4,8 +4,39 @@
     margin: 0;
     padding: 10px;
     height: 50px;
+    font-size: 20px;
 }
 
+/* inicio active */
+.back-red a.active {
+    background-color:  #e1173f;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* fim active */ 
 .painel-home {
     display: flex;
     justify-content: center;
