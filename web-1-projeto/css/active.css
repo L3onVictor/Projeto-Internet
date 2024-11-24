@@ -1,5 +1,5 @@
-nav ul li a.active {
-    background-color: red;
+.back-red a.active {
+    background-color:  #e1173f;
     color: white;
     padding: 10px 15px;
     border-radius: 20px;

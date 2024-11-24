@@ -69,30 +69,3 @@ header nav ul li a:hover {
     border-radius: 10px;
 }
 
-details summary {
-    position: relative;
-    padding-left: 30px;
-    /* Espaço para a seta */
-    cursor: pointer;
-    list-style: none;
-}
-
-details summary::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 8px solid #000;
-    /* Seta para baixo */
-    transition: transform 0.3s ease;
-}
-
-details[open] summary::before {
-    transform: translateY(-50%) rotate(180deg);
-    /* Rota a seta para cima quando aberto */
-}

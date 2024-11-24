@@ -1,0 +1,176 @@
+.secao1-auto{
+    display: flex;
+    max-width:none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    height: 80px;
+    background-color: #fff;
+    
+}
+
+.painel{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+.secao1-auto a:hover{
+    color: #e1173f;;
+}
+.secao1-auto a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+
+/* SECAO 2 */
+
+.secao2{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+
+}
+
+.input input{
+    display: flex;
+    border: 2px solid #000;
+    border-radius: 15px;
+    height: 30px;
+    width: 600px;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+.input svg{
+    position: absolute;
+    height: 20px;
+    width: 30px;
+    margin-right: -565px;
+    margin-top: 3px;
+    
+
+}
+
+
+
+/* SECAO 3*/
+.secao3{
+    display: flex;
+    margin: 30px;
+    background-color: #e1173f;
+    width: auto;
+    height: 313px;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.cards{
+    display: flex;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 25px;
+}
+
+.cards p{
+    display: flex;
+    font-size: small;
+    margin-top: 70px;    
+}
+
+.conteiner-cards{
+    display: flex;
+    margin: 50px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;   
+
+}
+
+/* CARD 1*/
+
+.card1{
+    
+    align-items: center;
+    width: 230px;
+    height: 206px;
+    background-color:  #e8e9ec;
+    border-radius: 15px;
+}
+.card1 h1{
+    display: flex;
+    margin-top: 15px;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+}
+.card1 p{
+    display: flex;
+    margin: 20px;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
+
+}
+.card1 svg{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    margin-left: 190px;
+    margin-top: 15px;
+}
+
+/* SECAO 4 */
+
+.secao4{
+    height: 164px;
+    background-color: #e1173f;
+}
+
+
+.coberturas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 25px;
+}
+
+.coberturas p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+
+}
+.lista-coberturas p{
+    color: #fff;
+    display: flex;
+    font-size: small; 
+    align-items: center;
+    gap: 15px;
+}
+.lista-coberturas{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.lista-coberturas ul{
+    margin-top: 30px;
+}
